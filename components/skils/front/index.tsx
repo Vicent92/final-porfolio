@@ -11,6 +11,10 @@ export const Front = () => {
                 <div className={styled.items}></div>
                 
                 <div className={styled.items}></div>
+                
+                <div className={styled.items}></div>
+                
+                <div className={styled.items}></div>
             </div>
         </div>
     )

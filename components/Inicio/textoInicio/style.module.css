@@ -2,11 +2,6 @@
     width: 90%;
     height: 450px;
     /* background-color: red; */
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .rol {
@@ -25,4 +20,45 @@
     font-size: 2.0rem;
     font-weight: 400;
     line-height: 30px;
+}
+
+.imagen {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+
+    .container {
+        height: 600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container_texts {
+        width: 500px;
+        height: 400px;
+        /* background-color: green; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagen {
+        display: block;
+        width: 390px;
+        height: 500px;
+    }
+
+    .rol {
+        line-height: 60px;
+        font-size: 3.8rem;
+    }
+
+    .name {
+        font-size: 5.8rem;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
 }

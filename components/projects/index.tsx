@@ -5,6 +5,8 @@ export const Projects = () => {
     return (
         <div className={styled.container}>
             <ItemsProjects/>
+
+            <ItemsProjects/>
         </div>
     )
 }
